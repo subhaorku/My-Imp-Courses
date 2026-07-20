@@ -1,0 +1,96 @@
+
+    Triangles written to: rough.bdp
+    Total Edges: 10
+    Heavy Hitter Nodes: 6
+    Heavy Hitter Triangles: 5
+    Threshold value for the node to be heavy hitter : 3
+    All Nodes and Degrees:
+      * Node 4 -> Degree 5
+  * Node 1 -> Degree 3
+  * Node 2 -> Degree 3
+  * Node 3 -> Degree 3
+  * Node 5 -> Degree 3
+  * Node 6 -> Degree 3
+
+Canonical Edges:
+  Edge: 1 -> 2
+  Edge: 1 -> 4
+  Edge: 1 -> 5
+  Edge: 2 -> 3
+  Edge: 2 -> 4
+  Edge: 3 -> 4
+  Edge: 3 -> 6
+  Edge: 4 -> 5
+  Edge: 4 -> 6
+  Edge: 5 -> 6
+
+Heavy Hitter Nodes (degree greater than equal to threshold):
+  Node: 1
+  Node: 2
+  Node: 3
+  Node: 4
+  Node: 5
+  Node: 6
+
+Heavy Edges (edges between heavy hitter nodes only):
+  Edge: 1 -> 2
+  Edge: 1 -> 4
+  Edge: 1 -> 5
+  Edge: 2 -> 3
+  Edge: 2 -> 4
+  Edge: 3 -> 4
+  Edge: 3 -> 6
+  Edge: 4 -> 5
+  Edge: 4 -> 6
+  Edge: 5 -> 6
+
+Edge1 (a -> b):
+  a: 1 -> b: 2
+  a: 1 -> b: 4
+  a: 1 -> b: 5
+  a: 2 -> b: 3
+  a: 2 -> b: 4
+  a: 3 -> b: 4
+  a: 3 -> b: 6
+  a: 4 -> b: 5
+  a: 4 -> b: 6
+  a: 5 -> b: 6
+
+Edge2 (a -> c):
+  a: 1 -> c: 2
+  a: 1 -> c: 4
+  a: 1 -> c: 5
+  a: 2 -> c: 3
+  a: 2 -> c: 4
+  a: 3 -> c: 4
+  a: 3 -> c: 6
+  a: 4 -> c: 5
+  a: 4 -> c: 6
+  a: 5 -> c: 6
+
+Triangle Candidates (a, b, c):
+  (1, 2, 4)
+  (1, 2, 5)
+  (1, 4, 5)
+  (2, 3, 4)
+  (3, 4, 6)
+  (4, 5, 6)
+
+Edges for Closing Triangle (b -> c):
+  b: 1 -> c: 2
+  b: 1 -> c: 4
+  b: 1 -> c: 5
+  b: 2 -> c: 3
+  b: 2 -> c: 4
+  b: 3 -> c: 4
+  b: 3 -> c: 6
+  b: 4 -> c: 5
+  b: 4 -> c: 6
+  b: 5 -> c: 6
+
+Heavy Hitter Triangles:
+  Triangle: (2, 3, 4)
+  Triangle: (1, 2, 4)
+  Triangle: (1, 4, 5)
+  Triangle: (3, 4, 6)
+  Triangle: (4, 5, 6)

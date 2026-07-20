@@ -1,0 +1,56 @@
+a {
+    color: #A102FE !important;
+}
+
+a:hover {
+    color: #A102FE !important;
+    opacity: 0.8;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.dropdown-toggle .btn-primary {
+    color: #fff !important;
+    background-color: #A102FE !important;
+    background-image: none !important;
+    border-color: #A102FE !important;
+}
+
+.btn-amz {
+    background-color: #A102FE !important;
+    border-color: #A102FE !important;
+}
+
+.btn-primary {
+    background-color: #A102FE !important;
+    border-color: #A102FE !important;
+    outline: 0 !important;
+}
+
+.form-control:focus {
+    border-color: #A102FE !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus,
+.open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    color: #fff !important;
+    background-color: #A102FE !important;
+    border-color: #A102FE !important;
+    opacity: 0.8 !important;
+}
+
+.btn-outline {
+    background-color: #ffffff !important;
+    border-color: #A102FE !important;
+    color: #A102FE !important;
+    outline: 0 !important;
+}
